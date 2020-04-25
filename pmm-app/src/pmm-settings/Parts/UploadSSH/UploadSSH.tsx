@@ -1,4 +1,4 @@
-import { PluginTooltip } from '../../../react-plugins-deps/components/helpers/Helpers';
+import { PluginTooltip } from '../../../react-plugins-deps/helpers/Helpers';
 import { TextAreaField } from '../../../react-plugins-deps/components/Form/TextArea/TextArea';
 import React, { ReactElement, useEffect, useState } from 'react';
 import ButtonElement from '../../../react-plugins-deps/components/Form/Button/Button';
