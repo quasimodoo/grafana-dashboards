@@ -29,7 +29,7 @@ const AddInstancePanel = props => {
     history.push(url.pathname + url.search);
   };
   return (
-    <div className="app-theme-dark content-wrapper antd" id="antd">
+    <div className="app-theme-dark content-wrapper add-instance-panel-wrapper" id="antd">
       {!selectedInstance.type ? <AddInstance onSelectInstanceType={setSelectedInstance} /> : null}
       {selectedInstance.type && (
         <>
