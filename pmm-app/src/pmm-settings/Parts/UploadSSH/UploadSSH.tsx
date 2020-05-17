@@ -4,7 +4,7 @@ import React, { ReactElement, useEffect, useState } from 'react';
 import ButtonElement from '../../../react-plugins-deps/components/Form/Button/Button';
 import { Form as FormFinal } from 'react-final-form';
 import SettingsService from '../../Settings.service';
-import { showSuccessNotification } from '../../../react-plugins-deps/components/helpers/notification-manager';
+import { showSuccessNotification } from '../../../react-plugins-deps/helpers/notification-manager';
 import { GUI_DOC_URL } from '../../panel.constants';
 import { FormElement } from '../../../react-plugins-deps/components/Form/FormElement/FormElement';
 
